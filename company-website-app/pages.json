@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTextStyle": "black",
+				// "navigationBarTitleText": "Foshan Go Global Technology Co., Ltd."
+			}
+		},
+		{
+			"path" : "pages/product/product",
+			"style" : 
+			{
+				// "navigationBarTextStyle": "black",
+				// "navigationBarTitleText" : "产品详情页"
+			}
+		},
+		{
+			"path" : "pages/regarding/regarding",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : "公司详情页"
+			}
+		},
+		{
+			"path" : "pages/Project/Project",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/product/1",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/News/News",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/Tutorial/Tutorial",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/Download/Download",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/Contact/Contact",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/Question/Question",
+			"style" : 
+			{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+    "navigationStyle": "custom", // 关键配置：自定义导航栏
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark"
+	},
+	"uniIdRouter": {}
+}
+
